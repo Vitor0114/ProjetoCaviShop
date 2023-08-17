@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("/assets/images/backgroundimage.jpg"); */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-color: black;
+  
+}
+
+.navbar-logo {
+  max-height: 75px; /* Ajuste a altura máxima da logo conforme necessário */
+  max-height: 70px;
+  float: left; /* Move a logo para a esquerda */
+  
+}
+
+
+
+.barrapesquisa {
+  margin-left: auto;
+}
+
+div {
+  border-radius: 5%;
+}
+
+header {
+  
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Garante que o cabeçalho esteja acima do conteúdo */
+  background-color: #2d2c2c; /* Cor de fundo sólida sem opacidade */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.181); */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0; /* Espaçamento interno superior e inferior */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-button {
+  padding: 1.5rem 2rem;
+  border-radius: 30%;
+  cursor: pointer;
+  background-position: left center;
+  background-size: cover;
+  vertical-align: middle;
+  line-height: 1;
+  transition: background-color 0.25s;
+}
+
+.header-button {
+  padding: 1.5rem 2rem;
+  border-radius: 30%;
+  cursor: pointer;
+  background-position: left center;
+  background-size: cover;
+  vertical-align: middle;
+  line-height: 1;
+  transition: background-color 0.25s;
+}
+
+.header-buttonWhatsapp {
+  background-image: url("/assets/images/whatsicon.webp");
+}
+
+.header-buttonInstagram {
+  background-image: url("/assets/images/logoInstagramtransparente.webp");
+}
+
+.header-buttonWhatsapp:hover {
+  background-color: green;
+}
+
+.header-buttonInstagram:hover {
+  background-color: purple;
+}
+
+.products {
+  display: flex;
+  justify-content: center; /* Centraliza os produtos horizontalmente */
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.product {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  flex: 0 0 calc(50% - 2rem); /* Ocupa metade da largura da linha, com espaço entre eles */
+  max-width: 300px; /* Limita a largura máxima do produto */
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  max-height: 150px; /* Ajuste a altura máxima conforme necessário */
+  width: auto;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.product:hover img {
+  transform: scale(1.1);
+}
+
+.price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
