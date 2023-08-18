@@ -42,15 +42,15 @@ div {
 }
 
 header {
-  
   position: sticky;
   top: 0;
   z-index: 100;
   text-align: center;
   background-size: cover;
   padding: 1.5rem 0;
-  box-shadow: 0 20px 40px rgb(255, 255, 255);
-  background-image: url("/assets/images/backimagecinza.avif");
+  box-shadow: 0 20px 40px rgb(69, 71, 69);
+  background-color: dimgrey;
+  /* background-image: url("/assets/images/backimagecinza.avif"); */
 }
 
 .header-buttons {
@@ -73,6 +73,7 @@ header {
 }
 
 .header-buttonInstagram {
+  background-size:contain;
   background-image: url("/assets/images/logoInstagramtransparente.webp");
 }
 
